@@ -28,11 +28,14 @@ int getCoinsOwed(int cents)
         {
             cents -= 10;
             coins++;
-        } else if (cents >= 5)
+        } 
+        else if (cents >= 5)
         {
             cents -= 10;
             coins++;
-        } else {
+        } 
+        else 
+        {
             cents--;
             coins++;
         }
